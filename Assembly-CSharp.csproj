@@ -104,6 +104,11 @@
     <Compile Include="Assets\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Scripts\WaypointCircuit.cs" />
     <Compile Include="Assets\Scripts\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\SimpleVehicleAI\Scripts\AIVehicle.cs" />
+    <Compile Include="Assets\SimpleVehicleAI\Scripts\BrakeZone.cs" />
+    <Compile Include="Assets\SimpleVehicleAI\Scripts\DrawTriggers.cs" />
+    <Compile Include="Assets\SimpleVehicleAI\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\SimpleVehicleAI\Scripts\WheelAlign.cs" />
     <None Include="Assets\Models\Lowpoly_Sports_Car_2_in_1\readme.txt" />
     <None Include="Assets\Models\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Models\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />

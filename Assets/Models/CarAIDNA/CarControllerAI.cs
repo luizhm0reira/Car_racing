@@ -35,13 +35,14 @@ public class CarControllerAI : MonoBehaviour {
             carObj.GetComponent<Car>().Initialize();
         }
         generation++;
-        Debug.Log(generation);
+        //Debug.Log(generation);
+        Debug.Log("Generation:" + generation);
     }
     public void newPopulation(bool geneticManipulation)
     {
         if (geneticManipulation)
         {
-            Debug.Log("aa");
+            Debug.Log("Genetic Manipulation! Gen:"+ generation);
             cars = new List<GameObject>();
             for(int i = 0; i < population; i++)
             {
@@ -55,6 +56,7 @@ public class CarControllerAI : MonoBehaviour {
         generation++;
         carsCreated = 0;
         GameObject.Find("Camera").GetComponent<CameraMovement>().Follow(cars[0]);
+        Debug.Log("Generation:" + generation);
     }
     public void restartGeneration()
     {
